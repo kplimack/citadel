@@ -24,6 +24,7 @@ to be active. If you are using a VPC, this may require setting the hint file:
 ```bash
 $ mkdir -p /etc/chef/ohai/hints
 $ touch /etc/chef/ohai/hints/ec2.json
+$ touch /etc/chef/ohai/hints/iam.json
 ```
 
 If you use knife-ec2 to start the instance, the hint file is already set for you.
